@@ -236,7 +236,7 @@ public class Authenticator {
 
         String response;
 
-        BufferedReader br new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
+        BufferedReader br = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
         response = br.readLine();
         try {
             br.close();
